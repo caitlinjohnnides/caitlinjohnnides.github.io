@@ -21,4 +21,30 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH35dfcQT936092f0e4396a787ea53f9a532?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+| Off-the-shelf Parts | 
+| ------------------- | 
+| Syringe             | 
+| Ball Bearing        | 
+| Flexible Coupler    | 
+| Stepper Motor       | 
+| Power Supply |
+| Linear Actuator |
+| Lead Screw |
+| Rod |
+| Wires |
+| Breadboard |
+| LED Light |
+| Screws |
+| Button |
+
+|  3D printed Parts | 
+| ---------------- |
+| Interchangeable Mount |
+| Front Barrel Stabilizer |
+| Back Barrel Stabilizer
+| Box |
+| Lid to Box |
+| Motor Mount |
+| Plunger Holder |
+
 {% include gallery caption="Syringe Pump Gallery" %}
