@@ -2,6 +2,7 @@
 title: "Syringe Pump"
 excerpt: "DIY syringe pump capable of 1 ul/min to 10 ul/min flow rate"
 header:
+  image: /assets/img/syringepump.png
   teaser: /assets/img/syringepump.png
 gallery:
   - image_path: assets/img/syringepump.png
