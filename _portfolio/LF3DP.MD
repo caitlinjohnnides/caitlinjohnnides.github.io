@@ -1,6 +1,8 @@
 ---
 title: "Syringe Pump"
 excerpt: "A syringe pump consisting of 3D printed parts for reduced costs"
+header:
+  teaser: /assets/img/syringepump.png
 gallery:
   - image_path: assets/img/syringepump.png
   - image_path: assets/img/syringepumpside.png
