@@ -3,6 +3,9 @@
 title: "About Caitlin Johnnides"
 
 ---
+## About
+
+As a rising senior, Caitlin is seeking a full-time job after graduation. She is interested in a job in the medical device industry, as she has a great passion for helping others as well as the skills and experience to do so. 
 
 ## Education
 
