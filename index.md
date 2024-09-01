@@ -1,10 +1,10 @@
 ---
-title: "Example Web Page"
+title: "Caitlin Johnnides"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/gears.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
