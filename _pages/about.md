@@ -17,12 +17,12 @@ Caitlin prides herself on her diverse skillset and her team-oriented mindset.
 Caitlin has a great interest in improving and extending human life, which has led to her pursuing internships in the medical device industry.
 
 * Sumer 2023
-  ** Medtronic- Lafayette, CO
-  ** Manufacturing Engineer in Cranial & Spinal Technologies
+   * Medtronic- Lafayette, CO
+   * Manufacturing Engineer in Cranial & Spinal Technologies
 
 * Summer 2024
-  ** Medtronic- Mounds View, MN
-  ** R&D Systems Engineer in Diabetes
+   * Medtronic- Mounds View, MN
+   * R&D Systems Engineer in Diabetes
  
 ## Technical Skills
 
