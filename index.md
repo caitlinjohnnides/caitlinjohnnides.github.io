@@ -10,17 +10,11 @@ header:
       url: "/portfolio/"
 excerpt: "Caitlin Johnnides is an engineer with a passion for collaboration and innovation in the medical device industry. She has a great interest in 3D printing and rapid prototyping."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/syringepump.png
+    alt: "Syringe Pump"
+    title: "DIY Syringe Pump"
+    excerpt: "Low cost syringe pump"
+
 ---
 
 {% include feature_row %}
