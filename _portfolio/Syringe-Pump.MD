@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "A syringe pump consisting of 3D printed parts for reduced costs"
+excerpt: "DIY syringe pump capable of 1 ul/min to 10 ul/min flow rate"
 header:
   teaser: /assets/img/syringepump.png
 gallery:
