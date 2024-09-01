@@ -29,12 +29,14 @@ Caitlin has a great interest in improving and extending human life, which has le
  
 ## Technical Skills
 
-Caitlin has a variegated skillset, with focuses in additive manufacturing and systems engineering fields. Caitlin has experience with the following softwares and languages:
+Caitlin has a variegated skillset, with focuses in additive manufacturing and systems engineering fields. Caitlin has experience with the following softwares, languages, and technologies:
 
 * Autodesk Fusion 360
 * SOLIDWORKS
 * Systems Modeling Language (SysML)
 * MATLAB
+* Digital Fabrication Tools:
+  * Fused Filament Fabrication (FFF) Printing
 
 ## Certifications and Awards
 
