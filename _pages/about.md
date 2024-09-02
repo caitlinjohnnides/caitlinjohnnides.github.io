@@ -5,7 +5,7 @@ title: "About Caitlin Johnnides"
 ---
 ## About
 
-As a rising senior, Caitlin is seeking a full-time job after graduation. She is interested in a job in the medical device industry, as she has a great passion for helping others as well as the skills and experience to do so. 
+As a senior, Caitlin is seeking a full-time job after graduation. She is interested in a job in the medical device industry, as she has a great passion for helping others as well as the skills and experience to do so. 
 
 ## Education
 
@@ -42,13 +42,10 @@ Caitlin has a variegated skillset, with focuses in additive manufacturing and sy
 
 Caitlin was awarded 3rd place for her poster presentation at the Tenneesee Louis Stokes Alliance for Minority Participation (TLSAMP) conference. Her work was with the SALT Lab at the Vanderbilt University Medical Center, where she worked on sodium MRI acquisition techniques.
 
-<img src="/assets/img
-/IMG_3317.jpg" alt="Caitlin Johnnides Poster Presentation" style="width:200px;"/>
+<img src="/assets/img/IMG_3317.jpg" alt="Caitlin Johnnides Poster Presentation" style="width:200px;"/>
 
 Caitlin has a SOLIDWORKS certification in Mechanical Design.
 
-<img src="/assets/img
-/Certificate_C-E9H3G64NJR.pdf" alt="SOLIDWORKS Certificate" style="width:200px;"/>
+<img src="/assets/img/Certificate_C-E9H3G64NJR.pdf" alt="SOLIDWORKS Certificate" style="width:200px;"/>
 
-<img src="/assets/img
-/headshot_cropped.jpg" alt="Caitlin Johnnides" style="width:200px;"/>
+<img src="/assets/img/headshot_cropped.jpg" alt="Caitlin Johnnides" style="width:200px;"/>
