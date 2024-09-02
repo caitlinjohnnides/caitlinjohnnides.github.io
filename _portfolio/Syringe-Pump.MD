@@ -11,7 +11,7 @@ gallery:
    
 ---
 
-# Features
+## Features
 
 * **Low Cost** Syringe pumps are critical for many different areas of the medical field, such as delivering intravenous therapies, delivering medications to patients in palliative care, and microfluidic applications. Despite their widespread use, the average syringe pump costs thousands of dollars. In this syringe pump, many of the components were made by using 3D printed parts, which greatly reduces the cost of materials and assembly.
 * **Controlled Flow Rate** The flow rate is inputted into the [Arduino sketch](https://app.arduino.cc/sketches/4bd32564-1f35-4830-a72b-0da55bf80c51?view-mode=preview) and uploaded to the board. With the push of the button, the syringe pump will dispense until the liquid is gone. Mechanically speaking, the Arduino code will tell the stepper motor a certain amount of steps per second, which will dictate how many milliliters of liquid is dispensed per minute. 
@@ -19,10 +19,11 @@ gallery:
 * **LED Light Indicator** The LED light color changes in accordance with the status of the pump. The light indicates when the pump is on and not running, on and running, and when the pump has finished dispensing. 
 
 
-# CAD Model
+## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH35dfcQT936092f0e4396a787ea53f9a532?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# Required Parts
+## Required Parts
+
 | Off-the-shelf Parts | 3D printed Parts | 
 | ------------------- | ---------------- | 
 | Syringe             | Interchangeable Mount |
@@ -39,7 +40,7 @@ gallery:
 | Screws |
 | Button |
 
-# Operational Instructions
-The syringe is inserted into the appropriate spots on the back and front stabilizers. The flow rate is inputted into the Arduino program and uploaded to the board. Once the button is pushed, the pump will dispense liquid in the plunger until the liquid is gone. The LED light changes color in accordance with the status of the pump. When the pump is initially powered on, the light is yellow and the motor is not running. Once the button is pressed, the light changes to green and the motor starts. The button can be pressed again to pause the pump, which turns the light back to yellow and stops the motor. Once the plunger has been fully discharged, the switch at the end of the pathway is triggered, stopping the motor and displaying a red light. There is one button that controls the overall function of the pump by turning it on and off.
+## Operational Instructions
+The syringe is inserted into the appropriate spots on the back and front stabilizers. The flow rate is inputted into the Arduino program and uploaded to the board. Once the button is pushed, the pump will dispense liquid in the plunger until the liquid is gone. The LED light changes color in accordance with the status of the pump. When the pump is initially powered on, the light is yellow and the motor is not running. Once the button is pressed, the light changes to green and the motor starts. The button can be pressed again to pause the pump, which turns the light back to yellow and stops the motor. Once the plunger has been fully discharged, the motor stops and displays a red light. 
 
 {% include gallery caption="Syringe Pump Gallery" %}
