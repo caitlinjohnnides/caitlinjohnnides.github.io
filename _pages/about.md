@@ -46,6 +46,6 @@ Caitlin was awarded 3rd place for her poster presentation at the Tenneesee Louis
 
 Caitlin has a SOLIDWORKS certification in Mechanical Design.
 
-<img src="/assets/img/Certificate_C-E9H3G64NJR.pdf" alt="SOLIDWORKS Certificate" style="width:200px;"/>
+<img src="/assets/img/certificate.png" alt="SOLIDWORKS Certificate" style="width:200px;"/>
 
 <img src="/assets/img/headshot_cropped.jpg" alt="Caitlin Johnnides" style="width:200px;"/>
