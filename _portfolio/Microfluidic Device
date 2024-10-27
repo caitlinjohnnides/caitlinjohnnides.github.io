@@ -2,16 +2,16 @@
 title: "Microfluidic Device"
 excerpt: "DIY microfluidic pinch flow fractionation device capable of sorting 165 micron and 550 micron particles"
 header:
-  image: /assets/img/syringepump.jpg
-  teaser: /assets/img/syringepump.jpg
+  image: /assets/img/mold.JPG
+  teaser: /assets/img/mold.JPG
 gallery:
-  - image_path: assets/img/syringepump.jpg
-  - image_path: assets/img/syringepumpside.jpg
+  - image_path: assets/img/mold.JPG
+  - image_path: assets/img/pouring_resin.JPG
 
    
 ---
 
-## Features
+## Design Considerations
 
 * **Sorting Geometries** Pinched Flow Fractionation (PFF) yields passive sorting in a microfluidic device, where a microchannel has a pinched segment with a rectangular cross-section. The width of the pinched segment and the boundary angle between the pinched and the broadened segment are very important, since particle movement is dominated by flow profiles inside the channel. For effective particle separation, the width of the particle-containing solution in the pinched segment should be smaller than the diameter of the smallest particles. A narrow pinched segment is desirable for effective separation as well, so long as the segment is not clogged with the particles. The boundary angle between the pinched and broadened segments should be 180 degrees for best performance ((Yamada et al., 2004))[https://pubs.acs.org/doi/10.1021/ac049863r].
 * **Creating the Mold** Resin prints are cytotoxic due to the inability to remove residual uncured polymers and photoinitiator compounds. Parylene is an FDA USP Class VI polymer that meets the strictest testing requirements for human plantation, so it is very biocompatible. Coating resin-printed molds with parylene would render the SLA prints biocompatible and allow these prints to serve as master molds for PDMS casting. Coated prints demold more easily and have smooth, curved features ((O’Grady et al., 2021))[https://pubs.rsc.org/en/content/articlelanding/2021/lc/d1lc00744k].
@@ -25,4 +25,4 @@ gallery:
 ## Operational Instructions
 The syringe is inserted into the appropriate spots on the back and front stabilizers. The flow rate is inputted into the Arduino program and uploaded to the board. Once the button is pushed, the pump will dispense liquid in the plunger until the liquid is gone. The LED light changes color in accordance with the status of the pump. When the pump is initially powered on, the light is yellow and the motor is not running. Once the button is pressed, the light changes to green and the motor starts. The button can be pressed again to pause the pump, which turns the light back to yellow and stops the motor. Once the plunger has been fully discharged, the motor stops and displays a red light. 
 
-{% include gallery caption="Syringe Pump Gallery" %}
+{% include gallery caption="Microfluidic Device Gallery" %}
