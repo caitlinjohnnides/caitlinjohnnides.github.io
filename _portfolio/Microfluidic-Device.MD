@@ -2,7 +2,7 @@
 title: "Microfluidic Device"
 excerpt: "DIY microfluidic pinch flow fractionation device capable of sorting 165 micron and 550 micron particles"
 header:
-  image: /assets/img/mold.JPG
+  image: /assets/img/demolded.jpg
   teaser: /assets/img/mold.JPG
 gallery:
   - image_path: assets/img/mold.JPG
