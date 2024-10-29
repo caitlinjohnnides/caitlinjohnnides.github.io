@@ -15,7 +15,7 @@ feature_row:
     alt: "Syringe Pump"
     title: "DIY Syringe Pump"
     excerpt: "Low cost syringe pump"
-  - image_path: assets/img/mold.JPG
+  - image_path: assets/img/demolded.jpg
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
     excerpt: "Micro-scale particle sorter"
