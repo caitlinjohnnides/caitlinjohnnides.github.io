@@ -8,6 +8,7 @@ gallery:
   - image_path: assets/img/mold.JPG
   - image_path: assets/img/pouring_resin.JPG
   - image_path: assets/img/demolded.jpg
+  - image_path: assets/img/sorting.gif
 
    
 ---
