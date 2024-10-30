@@ -8,7 +8,6 @@ gallery:
   - image_path: assets/img/mold.JPG
   - image_path: assets/img/pouring_resin.JPG
   - image_path: assets/img/demolded.jpg
-  - image_path: assets/img/sorting.gif
 
    
 ---
@@ -22,6 +21,7 @@ gallery:
 * **Flow Rates** Particles will align to the a side wall based on the flow rates of the two inlets. The flow rate ratio of the particle-containing inlet to the buffer inlet must be 1:6.
 * **Potential Applications** Microfluidic sorters are popular among biology researchers because they operate in a very small space, eradicate the need for bulky pieces of equipment, are affordable, and require minimal sample preparation. Given these benefits, microfluidic sorters enable lab-on-a-chip devices for cellular sorting, analysis, and experimental processing. Any lab that does cell research could use microfluidic sorters for these benefits. Cell sorting could also be used in diagnostics. 
 
+  - image_path: assets/img/sorting.gif
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a407be4bb008a65e9e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
