@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Caitlin Johnnides is an engineer with a passion for collaboration and innovation in the medical device industry. She has a great interest in 3D printing and rapid prototyping. Learn more about Caitlin and her projects here!"
+excerpt: "Caitlin Johnnides is an engineer with a passion for collaboration and innovation in the medical device industry. She has a great interest in 3D printing and rapid prototyping. Learn more about Caitlin and her projects here! "
 
 feature_row:
   - image_path: assets/img/syringepump.jpg
