@@ -17,10 +17,10 @@ gallery:
 * **Design and Iterative Process** In these multimaterial pliers, the spring component uses 95A TPU, a flexible yet strong material which allows the pliers to close and then return to the open position when not in use. A fine balance must be maintained between flexibility and sturdiness, as the spring component must be flexible enough to allow the pliers to work while also having enough structural integrity to support the jaws and handles. The functionality and ergonomics of the pliers must also be taken into consideration.
 * **Specifications of Pliers** ***Overall Length:*** 212mm. Measured as the total length from the tip of the jaws to the end of the handles when the pliers are open, this is the most common measurement used. 
 ***Jaw Length:*** 77mm. Measured from the tip of the jaw to the pivot point, this measurement shows the maximum depth the pliers can grip.
-***Jaw Width:*** 64mm Measured across the widest point of the jaws when they are open, this measurement shows the type and size of objects that can be gripped securely.
-***Jaw Opening:*** 17mm Measured from the tip of the upper jaw to the tip of the lower jaw when open to their maximum extent, this measurement determines the size of the object the pliers can handle.
-***Handle Length:*** 90mm Measured from the pivot point to the handles, this measurement indicates the amount of leverage the user will be able to attain. Larger handle lengths are generally found on heavier-duty pliers.
-***Grip Span:*** 92mm Measured from the tip of the upper handle to the tip of the lower handle when the pliers are open to their fullest extent, this measurement affects the ergonomics of the pliers, and how comfortable they are to use.
+***Jaw Width:*** 64mm. Measured across the widest point of the jaws when they are open, this measurement shows the type and size of objects that can be gripped securely.
+***Jaw Opening:*** 17mm. Measured from the tip of the upper jaw to the tip of the lower jaw when open to their maximum extent, this measurement determines the size of the object the pliers can handle.
+***Handle Length:*** 90mm. Measured from the pivot point to the handles, this measurement indicates the amount of leverage the user will be able to attain. Larger handle lengths are generally found on heavier-duty pliers.
+***Grip Span:*** 92mm. Measured from the tip of the upper handle to the tip of the lower handle when the pliers are open to their fullest extent, this measurement affects the ergonomics of the pliers, and how comfortable they are to use.
 * **Print Settings** In SuperSlicer, some print settings were altered to maximize the flexibility of the spring component. Infill density was set to 10% with a rectilinear sparse fill pattern. By modifying the perimeters shell setting, the bottom solid layers and top solid layers were set to 0, providing greater flexibility.
 
 ![Sorting in Action](/assets/img/sorting.gif)
