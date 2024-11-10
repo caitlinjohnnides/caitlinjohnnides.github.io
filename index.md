@@ -19,10 +19,6 @@ feature_row:
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
     excerpt: "Micro-scale particle sorter"
- - image_path: assets/img/demolded.jpg
-    alt: "Multimaterial Pliers"
-    title: "Multimaterial Pliers"
-    excerpt: "Print-in-place pliers"
 ---
 
 {% include feature_row %}
