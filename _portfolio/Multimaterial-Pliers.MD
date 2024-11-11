@@ -6,6 +6,7 @@ header:
   teaser: /assets/img/pliers/jpeg
 gallery:
   - image_path: assets/img/pliers/jpeg
+  - image_path: assets/img/infill/jpeg
    
 ---
 
@@ -19,7 +20,9 @@ gallery:
 ***Jaw Opening:*** 17mm. Measured from the tip of the upper jaw to the tip of the lower jaw when open to their maximum extent, this measurement determines the size of the object the pliers can handle.
 ***Handle Length:*** 90mm. Measured from the pivot point to the handles, this measurement indicates the amount of leverage the user will be able to attain. Larger handle lengths are generally found on heavier-duty pliers.
 ***Grip Span:*** 92mm. Measured from the tip of the upper handle to the tip of the lower handle when the pliers are open to their fullest extent, this measurement affects the ergonomics of the pliers, and how comfortable they are to use.
-* **Print Settings** In SuperSlicer, some print settings were altered to maximize the flexibility of the spring component. Infill density was set to 10% with a rectilinear sparse fill pattern. By modifying the perimeters shell setting, the bottom solid layers and top solid layers were set to 0, providing greater flexibility.
+* **Print Settings** In SuperSlicer, some print settings were altered to maximize the flexibility of the spring component. Infill density was set to 13% with a rectilinear sparse fill pattern. By modifying the perimeters shell setting, the bottom solid layers and top solid layers were set to 0, providing greater flexibility. Different infill densities were tested.
+
+![SuperSlicer Settings](/assets/img/superslicer.png)
 
 ![Pliers in Action](/assets/img/movingpliers.gif)
 
