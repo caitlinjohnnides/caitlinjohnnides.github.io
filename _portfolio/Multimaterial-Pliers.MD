@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/pliers/jpeg
 gallery:
   - image_path: assets/img/pliers/jpeg
-  - image_path: assets/img/infill/jpeg
+  - image_path: assets/img/infill/jpg
    
 ---
 
