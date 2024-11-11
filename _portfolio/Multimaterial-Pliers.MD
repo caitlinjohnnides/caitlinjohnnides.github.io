@@ -13,6 +13,9 @@ gallery:
 ## Project Details
 
 * **Print-in-Place Parts** Print-in-place parts are 3D printed parts that are functional immediately after removal from the print bed. They are unique in that no post-processing or further assembly is required, as careful attention is paid to the model design and print orientation. These models feature joints and links to enable dynamic components working together. The key to many print-in-place models is to leave negative space in between moving components, creating a gap during printing. This method is incredibly useful in prototyping, as the final model is ready after a single print. Some applications include parts with springs, hinges, chains, or gears. Models for fun, such as snakes and dragons, can have fluid motion via hinges. Another example is a box with a hinged lid. Using a rigid material, such as PLA, and a flexible material, such as TPU, works well in allowing motion within the model. When the spring component is made of the flexible material, the part can have movement while still returning to its original position when not in use.
+
+![Pliers in Action](/assets/img/movingpliers.gif)
+
 * **Design and Iterative Process** In these multimaterial pliers, the spring component uses 95A TPU, a flexible yet strong material which allows the pliers to close and then return to the open position when not in use. A fine balance must be maintained between flexibility and sturdiness, as the spring component must be flexible enough to allow the pliers to work while also having enough structural integrity to support the jaws and handles. The functionality and ergonomics of the pliers must also be taken into consideration.
 * **Specifications of Pliers** ***Overall Length:*** 212mm. Measured as the total length from the tip of the jaws to the end of the handles when the pliers are open, this is the most common measurement used. 
 ***Jaw Length:*** 77mm. Measured from the tip of the jaw to the pivot point, this measurement shows the maximum depth the pliers can grip.
@@ -24,7 +27,6 @@ gallery:
 
 ![SuperSlicer Settings](/assets/img/superslicer.png)
 
-![Pliers in Action](/assets/img/movingpliers.gif)
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41046c07d61f6970e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
