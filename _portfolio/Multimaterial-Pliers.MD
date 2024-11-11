@@ -2,11 +2,11 @@
 title: "Multimaterial Pliers"
 excerpt: "3D-Printed pliers made of PLA and 95A TPU"
 header:
-  image: /assets/img/pliers/jpeg
-  teaser: /assets/img/pliers/jpeg
+  image: /assets/img/pliers.jpeg
+  teaser: /assets/img/pliers.jpeg
 gallery:
-  - image_path: assets/img/pliers/jpeg
-  - image_path: assets/img/infill/jpg
+  - image_path: assets/img/pliers.jpeg
+  - image_path: assets/img/infill.jpg
    
 ---
 
