@@ -2,12 +2,10 @@
 title: "Multimaterial Pliers"
 excerpt: "3D-Printed pliers made of PLA and 95A TPU"
 header:
-  image: /assets/img/demolded.jpg
-  teaser: /assets/img/mold.JPG
+  image: /assets/img/pliers/jpeg
+  teaser: /assets/img/pliers/jpeg
 gallery:
-  - image_path: assets/img/mold.JPG
-  - image_path: assets/img/pouring_resin.JPG
-  - image_path: assets/img/demolded.jpg
+  - image_path: assets/img/pliers/jpeg
    
 ---
 
@@ -23,7 +21,7 @@ gallery:
 ***Grip Span:*** 92mm. Measured from the tip of the upper handle to the tip of the lower handle when the pliers are open to their fullest extent, this measurement affects the ergonomics of the pliers, and how comfortable they are to use.
 * **Print Settings** In SuperSlicer, some print settings were altered to maximize the flexibility of the spring component. Infill density was set to 10% with a rectilinear sparse fill pattern. By modifying the perimeters shell setting, the bottom solid layers and top solid layers were set to 0, providing greater flexibility.
 
-![Sorting in Action](/assets/img/sorting.gif)
+![Pliers in Action](/assets/img/movingpliers.gif)
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41046c07d61f6970e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
