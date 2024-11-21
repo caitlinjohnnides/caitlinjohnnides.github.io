@@ -23,6 +23,10 @@ feature_row:
     alt: "Multimaterial Pliers"
     title: "Multimaterial Pliers"
     excerpt: "Print-in-Place Pliers"
+  - image_path: assets/img/mount.jpg
+    alt: "Phone Holder for Bike"
+    title: "Phone Holder for Bike"
+    excerpt: "Adjustable phone holder mount for bike or scooter"
 ---
 
 {% include feature_row %}
