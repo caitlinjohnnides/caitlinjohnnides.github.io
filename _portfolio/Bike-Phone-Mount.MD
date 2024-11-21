@@ -18,7 +18,7 @@ gallery:
 * **Material Choice** While most components were filament printed using PLA, the screw that mimics the self-centering vice was printed using SLA with resin. The threaded features on the screw required a higher resolution than filament printing could provide.
 * **Assembly Instructions** The only potential tool needed to assemble this mount is an allen key for a M5 bolt. Tighten the handlebar grip at the desired orientation. Line up the center of the screw with the holder on the mount, ensuring that the notches on the two phone grips are also aligned with the rod. Use the knob to open and close the phone grips to the desired position.
 
-![Selfcentering in Action](/assets/img/selfcentering.gif)
+![Selfcentering in Action](/assets/img/self.gif)
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f13bc6f5d1a39e83?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
