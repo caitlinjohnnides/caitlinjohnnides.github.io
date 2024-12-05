@@ -30,12 +30,13 @@ While I see how generative design would be useful in complicated applications th
 * CAD Model: ALSi10mg Outcome (printed)
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48cf4791ffd4f3b47?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-* CAD Model: ALSi10mg Rendering
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9b4633c24622f65?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+* CAD Model: ALSi10mg Outcome (modified)
+* ALSi10mg Renderings
+
 
 ## Nylon 12 Outcome
 * CAD Model: Nylon 12 Outcome 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48612843b4eeba2c2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-
+* Nylon 12 Renderings
 {% include gallery caption="Skateboard Truck Hanger and Motor Mount Device Gallery" %}
