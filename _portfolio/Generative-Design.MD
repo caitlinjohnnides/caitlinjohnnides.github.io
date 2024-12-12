@@ -81,8 +81,10 @@ Additionally, the distance between the two pulleys was properly calculated, allo
 
 ![wheels](/assets/img/pulley.gif)
 
-Upon printing the model, there seemed to be a defect that blocked the sleeve from being properly inserted. I checked my model and do not see this divot, and I know I'm not strong enough to deform the print this much. Unfortunately, this did prevent the rod from being fully inserted, but the rod could be inserted from both sides up until this defect.
-![defect](assets/img/divot.JPG)
+Upon printing the model, there seemed to be a defect that blocked the sleeve from being properly inserted. I checked my model and do not see this divot, and I know I'm not strong enough to deform the print this much. Unfortunately, this did prevent the rod from being fully inserted, but the rod could be inserted from both sides up until this defect. It is important to note that in my first model (pictured second), the threaded rod fit perfectly and I didn't change this aspect from one version to the next. 
+
+![defect](/assets/img/divot.JPG)
+![threaded](/assets/img/threaded.JPG)
 
 ## Nylon 12 Outcome
 * CAD Model: Nylon 12 Outcome 
