@@ -56,13 +56,13 @@ Another drawback is the time needed to generate the models due to the computatio
 * ALSi10mg Renderings
 
 Here are both printed models side by side. Note how in the first model (where no obstacle geometry for clearance around the kingpin was placed), there was sufficient room to fasten the kingpin automatically generated. 
-!(Side by Side)[/assets/img/bothmodels.JPG]
+![Side by Side](/assets/img/bothmodels.JPG)
 
 In the tested model, there was enough clearance around the base for the truck to turn.
-!(base)[/assets/img/base.gif)
+![base](/assets/img/base.gif)
 
 Additionally, the distance between the two pulleys was properly calculated, allowing for a tight fit that allowed the wheels to turn.
-!(wheels)[/assets/img/pulley.gif]
+![wheels](/assets/img/pulley.gif)
 
 ## Nylon 12 Outcome
 * CAD Model: Nylon 12 Outcome 
@@ -75,8 +75,8 @@ Additionally, the distance between the two pulleys was properly calculated, allo
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9b4633c24622f65?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 * Complete Renderings
-!(full rendering)[/assets/img/fullrendering.jpg]
-!(full rendering)[/assets/img/topview.jpg]
+![full rendering](/assets/img/fullrendering.jpg)
+![full rendering)(/assets/img/topview.jpg)
 
 {% include gallery caption="Truck Hanger & Motor Mount Photo Gallery" %}
 
