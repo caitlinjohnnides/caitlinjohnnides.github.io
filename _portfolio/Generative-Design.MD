@@ -21,20 +21,21 @@ gallery:
 Powder bed fusion pairs particularly well with generative design as generative design often yields organic, hard to manufacture parts. These parts are not compatible with traditional manufacturing techniques and often traditional 3D printing techniques, due to odd overhangs and many curves. Powder bed fusion allows for the creation of the non-traditional shapes, which are often useful in reducing mass for aerospace and automotive industries. Designing a part that has to be traditionally manufactured can be limiting and potentially increase the amount of material needed.
 
 * **Case Study**
-The (Airbus A320 aircraft)[https://www.airbus.com/en/newsroom/news/2016-03-pioneering-bionic-3d-printing] wall was redesigned with Autodesk’s generative design. Fixed between the passenger seating area and plane’s galley, this dividing wall will sometimes be used to support the jumpseats used by cabin crews during takeoff and landing. It needs to be strong, which with traditional materials and manufacturing processes, makes it heavy and bulky. The primary objectives were to reduce the weight of the wall, minimize the number of parts, and ensure structural integrity. This study resulted in a lighter design, fewer parts, and a lower cost.
+The [Airbus A320 aircraft](https://www.airbus.com/en/newsroom/news/2016-03-pioneering-bionic-3d-printing) wall was redesigned with Autodesk’s generative design. Fixed between the passenger seating area and plane’s galley, this dividing wall will sometimes be used to support the jumpseats used by cabin crews during takeoff and landing. It needs to be strong, which with traditional materials and manufacturing processes, makes it heavy and bulky. The primary objectives were to reduce the weight of the wall, minimize the number of parts, and ensure structural integrity. This study resulted in a lighter design, fewer parts, and a lower cost.
 
 * **Load Cases** 
 Proper load cases were important as they determined how much mass was generated in order to support the applied loads. If too little forces were applied, then the truck hanger would not have weak mechanical properties and might not have been functional. A proper free body diagram of the entire setup would have improved the process.There are many scenarios where the forces might change, such as sharp turns or riders of different weights, so an algorithm that would account for these changes would improve the process. 
 
 I determined what forces to apply to the model by thinking through a rider on a skateboard and using ChatGPT to tell me what parameters I needed. In class, we calculated the two of the three forces on the motor mounting plate: the torque applied to the plate from the motor, the weight from the motor, and the tension from the pulley. The rod experiences the weight of the rider at the middle and shear forces on each end of the rod.
 
-| Force | | Value |
-|-------| |-------|
-| Torque on Motor Mount Plate | | 296 Nmm|
-| Remote Weight on Motor Mount Plate| | 8.31 N |
-| Remote Tension from Pulleu| | 200 N |
-| Weight of Rider | | 668 N |
-|Shear Force (one on each end of rod)| | +/- 683 N | 
+| Force | Value |
+|------ |-------|
+| Torque on Motor Mount Plate | 296 Nmm|
+| Remote Weight on Motor Mount Plate| 8.31 N |
+| Remote Tension from Pulley | 200 N |
+| Weight of Rider | 668 N |
+|Shear Force (one on each end of rod) | +/- 683 N | 
+
 I placed the structural constraint at the pivot cup. Structural constraints define the loads, supports, and other boundary conditions that the design must accommodate. This point acts as an anchor, as the design will be optimized to transfer loads to this support efficiently. I chose this point as it is the “base” of the model.
 * **Generative Design Critiques** 
 * One of the drawbacks is the high level of attention to detail needed when assigning the obstacle and preserve geometries. For example, I should have selected the entire motor as an obstacle geometry, but instead I only made the motor shaft and mounting obstacles. I was so concerned about selecting too many obstacles and over constraining the model that I missed this obstacle. This caused material to build on the motor mount plate where the motor should sit in both material outcomes, causing the hanger to not properly fit. Unfortunately, I caught this mistake after I had powder-printed my aluminum outcome hanger. If I had used a method like top down modeling using as-built joints to build the hanger myself from the parts present, I probably would have caught this issue. I also could have utilized more of the CAD modeling features to test this out before printing too, but unfortunately didn’t think of this prior to printing. While this design would work for the truck hanger portion, it does not properly mount the motor. After I printed the initial model, I went back into Fusion and updated the CAD to function better. However, as I removed certain issues, new issues arose. For example, in the initial model I printed, there was plenty of clearance for kingpin installation (and I didn’t have an obstacle in place). In subsequent generations, material was generated to block the kingpin. However, when I added an obstacle, the model became overconstrained. In my final design, I could have added a normal cut through the center to give the proper clearance, but this would have gone against the purpose of using generative design. Also, sometimes the algorithm ignored my obstacles and generated material where I knew there was an obstacle, such as through the sleeve for the rod.
