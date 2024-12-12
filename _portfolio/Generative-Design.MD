@@ -68,6 +68,7 @@ gallery:
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf50a58d83c4187e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 * ALSi10mg Renderings
 ![nylon](/assets/img/alrendering.png)
+
 ![nylon](/assets/img/alrenderingside.png)
 
 Here are both printed models side by side. Note how in the first model (where no obstacle geometry for clearance around the kingpin was placed), there was sufficient room to fasten the kingpin automatically generated. 
@@ -100,6 +101,7 @@ Upon printing the model, there seemed to be a defect that blocked the sleeve fro
 
 * Complete Renderings
 ![full rendering](/assets/img/fullrendering.png)
+
 ![full rendering](/assets/img/topview.png)
 
 {% include gallery caption="Truck Hanger & Motor Mount Photo Gallery" %}
