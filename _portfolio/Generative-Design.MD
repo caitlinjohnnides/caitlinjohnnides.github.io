@@ -67,7 +67,7 @@ gallery:
 * CAD Model: ALSi10mg Outcome #2 (the model that was tested)
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf50a58d83c4187e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 * ALSi10mg Renderings
-![nylon](/assets/img/alurendering.png)
+![nylon](/assets/img/aluturning - Made with Clipchamp.gif)
 
 ![nylon](/assets/img/alrenderingside.png)
 
@@ -100,6 +100,7 @@ Upon printing the model, there seemed to be a defect that blocked the sleeve fro
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9b4633c24622f65?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 * Complete Renderings
+![turning](/assets/img/turning.gif)
 ![full rendering](/assets/img/full1.png)
 
 ![full rendering](/assets/img/topview.png)
