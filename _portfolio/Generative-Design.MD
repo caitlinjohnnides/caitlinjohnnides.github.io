@@ -2,23 +2,29 @@
 title: "Generative Design Skateboard Truck Hanger and Motor Mount"
 excerpt: "An SLS printed skateboard hanger using Fusion's generative design feature"
 header:
-  image: /assets/img/mount.jpg
-  teaser: /assets/img/mount.jpg
+  image: /assets/img/seated.JPG
+  teaser: /assets/img/seated.JPG
 gallery:
-  - image_path: assets/img/mount.jpg
-  - image_path: assets/img/demomount.jpg
-  - image_path: assets/img/sidemount.jpg
+  - image_path: assets/img/side.JPG
+  - image_path: assets/img/divot.JPG
+  - image_path: assets/img/pulley.JPG
+  - image_path: assets/img/bottom.JPG
+  - image_path: assets/img/bottom2.JPG
+  - image_path: assets/img/mounted.JPG
+  - image_path: assets/img/bothmodels.JPG
    
 ---
 
 ## Project Details
 
 * **Powder Bed Fusion & Generative Design** 
+Powder bed fusion pairs particularly well with generative design as generative design often yields organic, hard to manufacture parts. These parts are not compatible with traditional manufacturing techniques and often traditional 3D printing techniques, due to odd overhangs and many curves. Powder bed fusion allows for the creation of the non-traditional shapes, which are often useful in reducing mass for aerospace and automotive industries. Designing a part that has to be traditionally manufactured can be limiting and potentially increase the amount of material needed.
+
 * **Case Study**
 * **Load Cases** 
 * **Generative Design Critiques** 
-* One of the drawbacks is the high level of attention to detail needed when assigning the obstacle and preserve geometries. For example, I should have selected the entire motor as an obstacle geometry, but instead I only made the motor shaft and mounting obstacles. I was so concerned about selecting too many obstacles and over constraining the model that I missed this obstacle. This caused material to build on the motor mount plate where the motor should sit in both material outcomes, causing the hanger to not properly fit. Unfortunately, I caught this mistake after I had powder-printed my aluminum outcome hanger. If I had used a method like top down modeling using as-built joints to build the hanger myself from the parts present, I probably would have caught this issue. I also could have utilized more of the CAD modeling features to test this out before printing too, but unfortunately didn’t think of this prior to printing. While this design would work for the truck hanger portion, it does not properly mount the motor. After I printed the initial model, I went back into Fusion and updated the CAD to function properly.
-Another drawback is the time needed to generate the models due to the computational intensity. By the time it takes to generate all the obstacle geometries, it almost makes more sense to create the model normally. Additionally, the organic shapes that are generated are also not compatible with traditional manufacturing techniques.
+* One of the drawbacks is the high level of attention to detail needed when assigning the obstacle and preserve geometries. For example, I should have selected the entire motor as an obstacle geometry, but instead I only made the motor shaft and mounting obstacles. I was so concerned about selecting too many obstacles and over constraining the model that I missed this obstacle. This caused material to build on the motor mount plate where the motor should sit in both material outcomes, causing the hanger to not properly fit. Unfortunately, I caught this mistake after I had powder-printed my aluminum outcome hanger. If I had used a method like top down modeling using as-built joints to build the hanger myself from the parts present, I probably would have caught this issue. I also could have utilized more of the CAD modeling features to test this out before printing too, but unfortunately didn’t think of this prior to printing. While this design would work for the truck hanger portion, it does not properly mount the motor. After I printed the initial model, I went back into Fusion and updated the CAD to function better. However, as I removed certain issues, new issues arose. For example, in the initial model I printed, there was plenty of clearance for kingpin installation (and I didn’t have an obstacle in place). In subsequent generations, material was generated to block the kingpin. However, when I added an obstacle, the model became overconstrained. In my final design, I could have added a normal cut through the center to give the proper clearance, but this would have gone against the purpose of using generative design. Also, sometimes the algorithm ignored my obstacles and generated material where I knew there was an obstacle, such as through the sleeve for the rod.
+Another drawback is the time needed to generate the models due to the computational intensity. My computer also crashed multiple times during the computations (and I have a pretty new and powerful computer). By the time it takes to generate all the obstacle geometries, it almost makes more sense to create the model normally. Additionally, the organic shapes that are generated are also not compatible with traditional manufacturing techniques.
 
 I think generative design is useful in creating organic, creative models. The generative design outcomes are good starting points for new concepts for a design, but often require some tweaking after. It is really useful in minimizing mass while accounting for all the load cases, which is really important in applications with a high emphasis on mechanical properties. A lightweight part is arguably the biggest benefit. It’s a very powerful tool, but requires a lot of thinking to get it to work the intended way. Perhaps in a less complicated set-up, placing the constraints for the design would have been more straightforward. I think this functionality would be useful in creating fun models focused more on aesthetics than mechanical properties. 
 
@@ -26,11 +32,13 @@ While I see how generative design would be useful in complicated applications th
 
 
 
+
 ## ALSi10mg Outcome
-* CAD Model: ALSi10mg Outcome (printed)
+* CAD Model: ALSi10mg Outcome #1
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48cf4791ffd4f3b47?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-* CAD Model: ALSi10mg Outcome (modified)
+* CAD Model: ALSi10mg Outcome #2
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf50a58d83c4187e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 * ALSi10mg Renderings
 
 
@@ -39,4 +47,10 @@ While I see how generative design would be useful in complicated applications th
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48612843b4eeba2c2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 * Nylon 12 Renderings
-{% include gallery caption="Skateboard Truck Hanger and Motor Mount Device Gallery" %}
+
+* Complete Assembly
+* CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9b4633c24622f65?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+{% include gallery caption="Truck Hanger & Motor Mount Photo Gallery" %}
+
