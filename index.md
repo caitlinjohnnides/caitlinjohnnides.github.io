@@ -27,6 +27,10 @@ feature_row:
     alt: "Phone Holder for Bike"
     title: "Phone Holder for Bike"
     excerpt: "Adjustable phone holder mount for bike or scooter"
+  - image_path: assets/img/seated.JPG
+    alt: "Generative Design Motor Mount"
+    title: "Generative Design Motor Mount"
+    excerpt: "SLS truck hanger and motor mount, made using generative design"
 ---
 
 {% include feature_row %}
