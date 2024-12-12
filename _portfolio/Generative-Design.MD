@@ -21,6 +21,8 @@ gallery:
 Powder bed fusion pairs particularly well with generative design as generative design often yields organic, hard to manufacture parts. These parts are not compatible with traditional manufacturing techniques and often traditional 3D printing techniques, due to odd overhangs and many curves. Powder bed fusion allows for the creation of the non-traditional shapes, which are often useful in reducing mass for aerospace and automotive industries. Designing a part that has to be traditionally manufactured can be limiting and potentially increase the amount of material needed.
 
 * **Case Study**
+The (Airbus A320 aircraft)[https://www.airbus.com/en/newsroom/news/2016-03-pioneering-bionic-3d-printing] wall was redesigned with Autodesk’s generative design. Fixed between the passenger seating area and plane’s galley, this dividing wall will sometimes be used to support the jumpseats used by cabin crews during takeoff and landing. It needs to be strong, which with traditional materials and manufacturing processes, makes it heavy and bulky. The primary objectives were to reduce the weight of the wall, minimize the number of parts, and ensure structural integrity. This study resulted in a lighter design, fewer parts, and a lower cost.
+
 * **Load Cases** 
 * **Generative Design Critiques** 
 * One of the drawbacks is the high level of attention to detail needed when assigning the obstacle and preserve geometries. For example, I should have selected the entire motor as an obstacle geometry, but instead I only made the motor shaft and mounting obstacles. I was so concerned about selecting too many obstacles and over constraining the model that I missed this obstacle. This caused material to build on the motor mount plate where the motor should sit in both material outcomes, causing the hanger to not properly fit. Unfortunately, I caught this mistake after I had powder-printed my aluminum outcome hanger. If I had used a method like top down modeling using as-built joints to build the hanger myself from the parts present, I probably would have caught this issue. I also could have utilized more of the CAD modeling features to test this out before printing too, but unfortunately didn’t think of this prior to printing. While this design would work for the truck hanger portion, it does not properly mount the motor. After I printed the initial model, I went back into Fusion and updated the CAD to function better. However, as I removed certain issues, new issues arose. For example, in the initial model I printed, there was plenty of clearance for kingpin installation (and I didn’t have an obstacle in place). In subsequent generations, material was generated to block the kingpin. However, when I added an obstacle, the model became overconstrained. In my final design, I could have added a normal cut through the center to give the proper clearance, but this would have gone against the purpose of using generative design. Also, sometimes the algorithm ignored my obstacles and generated material where I knew there was an obstacle, such as through the sleeve for the rod.
@@ -48,7 +50,7 @@ While I see how generative design would be useful in complicated applications th
 
 * Nylon 12 Renderings
 
-* Complete Assembly
+## Complete Assembly
 * CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9b4633c24622f65?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
